@@ -10,7 +10,7 @@ a {
   
 }
 body{
-  animation: grad 7s ease alternate forwards ;
+  animation: grad 10s ease alternate forwards ;
   background: linear-gradient(50deg,rgb(4, 180, 224),#1635af, #102269, #010c3a ) no-repeat;
   background-size:200% 200%;
   text:#EDF2FF;
