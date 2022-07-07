@@ -10,8 +10,8 @@ a {
   
 }
 body{
-  animation: grad 10s ease alternate forwards ;
-  background: linear-gradient(50deg,rgb(4, 180, 224),#1635af, #102269, #010c3a ) no-repeat;
+  animation: grad 8s ease alternate forwards ;
+  background: linear-gradient(80deg,#010c3a, #102269, #1635af , rgb(20, 109, 131), #2244cc ) no-repeat;
   background-size:200% 200%;
   text:#EDF2FF;
   font-family: 'roboto', sans-serif;
@@ -65,8 +65,31 @@ body{
     list-style: none;
     margin: 48px 0px;
   }
-  
-  
+  .animaNo{
+    animation: pula1 5s ease-in alternate forwards;
+
+  }
+
+  .animab{
+    animation: pular 0.6s ease-in alternate infinite;
+  }
+
+  @keyframes pula1 {
+    0%{
+      opacity:0;
+    }
+
+    100%{
+      opacity: 1;
+    }
+    
+  }
+
+  @keyframes pular {
+    to{
+      transform: translateY(-5px)
+    }
+  }
   ul li a{
     display: flex;
     align-items: center;
